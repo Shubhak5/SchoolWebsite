@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+
+#divMarq {
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    background-color: coral;
+    margin-top: auto;
+}
+
+#marq {
+    font-size: 30px;
+    color: crimson;
+}
+
+#imgSchool {
+    width: 100%;
+    height: 500px;
+}
+
+#map iframe {
+    width: 50%;
+    float: left;
+    padding-top: 15px;
+}
