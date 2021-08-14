@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <title>Sir Tim Berners-Lee</title>
     <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css"> </head>
@@ -24,33 +23,68 @@
                 <li><a href="#Achievements">Achievements</a></li>
                 <li><a href="#WhatsNew"> What’s New</a></li>
                 <li><a href="#Alumni">Alumni</a></li>
-                <li><a href="#Contactus">Contact us</a></li>
+                <li><a href="#ContactUs">Contact us</a></li>
             </ul>
         </div>
     </nav>
+    <!-- Marquee -->
     <div id="divMarq">
         <marquee id="marq" direction="left" scrollamount="10" width="50%" height="60%" onmouseover="this.stop();" onmouseout="this.start();"> Welcome to St. Xavier School</marquee>
     </div> <img id="imgSchool" src="http://www.staloysius.edu.in/storage/files/album-4/album/DSC_1559.JPG">
-    <section id="CampusLife">
-        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ContactUs">
-            <h2>Campus Life</h2> </div>
-    </section>
-    <section id="Achievements">
-        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ContactUs">
-            <h2>Achievements</h2> </div>
-    </section>
-    <section id="WhatsNew">
-        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ContactUs">
+    <div class="container">
+        <!-- Campus Life -->
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="CampusLife">
+            <h2 class="text-capitalize">Campus life</h2> </div>
+        <div class="row">
+            <div class="campus_mainDiv"> <img class="img-responsive" src="http://aroundmangalore.com/wp-content/uploads/2015/08/Aloysius-Chapel-1.png">
+                <h4 class="text-capitalize"> <kbd>Aloysius chapel</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize"> the chapel of St. Aloysius College, is a Christian chapel in Mangalore in the state of Karnataka in southwest India</h5>
+                <p class="text-muted text-left">The St. Aloysius Chapel in Mangalore was built by Jesuit Missionaries in 1880 and its interiors painted by the Italian Jesuit Antonio Moscheni in 1899, during the Mangalore Mission in 1878. The Italian Jesuits played an important role in education, health, and social welfare of the Mangalorean Catholic community</p>
+            </div>
+            <div class="campus_mainDiv"> <img class="img-responsive" src="https://cache.careers360.mobi/media/presets/500X333/colleges/social-media/media-gallery/14412/2018/12/22/Library%20of%20St%20Aloysius%20College%20Alappuzha_Library.JPG">
+                <h4 class="text-capitalize"> <kbd>Aloysius library</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize"> Monday – Saturday: 8.30 am – 4.30 pm</h5>
+                <p class="text-muted text-left">St.Aloysius College Library is working with a vision and mission of “Connecting people with information and empowering them with knowledge”.St. Aloysius College Library provides quick, innovative and relevant services in academic communication that contribute to the development of academic community of St. Aloysius College. </p>
+            </div>
+            <div class="campus_mainDiv"> <img class="img-responsive" src="http://www.staloysius.edu.in/storage/files/Infrastructure/sush_041110_aimi6.jpg">
+                <h4 class="text-capitalize"> <kbd>Aloysius library</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize"> Monday – Saturday: 8.30 am – 4.30 pm</h5>
+                <p class="text-muted text-left">he College Auditorium with balcony has the capacity to seat 1000 people. It has a well furnished and spacious stage with modern lighting facilities and stage accouterments. In addition to this there is a lower platform in front of the stage for smaller gatherings. The auditorium is used for large gatherings and events like award ceremonies, inaugurations, assemblies, etc.</p>
+            </div>
+        </div>
+        <!-- Achievements -->
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="Achievements">
+            <h2 class="text-capitalize">achievements</h2> </div>
+        <div class="bg-primary Achieve_mainDiv" data-toggle="collapse" data-target="#AchieveGames"> Intra School Football Competition<i class="fa fa-sort-desc"></i></div>
+        <div class="Achieve_Details collapse" id="AchieveGames">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="Achieve_img"> <img class="img-responsive img-thumbnail" src="https://cdn.britannica.com/51/190751-050-147B93F7/soccer-ball-goal.jpg"> </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 Achieve_desciption">
+                <h5 class="text-success text-left text-capitalize"> Won first prize in football competition </h5>
+                <p> It was a tough game, though managed to get first prize</p>
+            </div>
+        </div>
+        <!--Second Achievement -->
+        <div class="bg-primary Achieve_mainDiv" data-toggle="collapse" data-target="#AchiveDebate"> Intra School Debate Competition <i class="fa fa-sort-desc"></i> </div>
+        <div class="Achieve_Details collapse" id="AchiveDebate">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="Achieve_DebateImg"> <img class="img-responsive img-thumbnail" src="https://lh5.googleusercontent.com/6OajqKklOI_SVewEIrM2t8HUOyfYqZz0BUOs_WOQSl4dO5meuRhdCfyV-zqIeVVOs9V1Yn1M_0MFiG2zUTBZywzkzTIS6Y7VxMV8zk8-oOB5UabumDyQ26wzeEv-WAfmS_TvAwS3"> </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 Achieve_desciption">
+                <h5 class="text-capitalize text-success text-left">Won first place in intra school debate competition</h5>
+                <p>Won first place in intra school debate competition </p>
+            </div>
+        </div>
+        <!-- WhatsNew -->
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="WhatsNew">
             <h2>What's New</h2> </div>
-    </section>
-    <section id="Alumni">
-        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ContactUs">
-            <h2>Alumni</h2> </div>
-    </section>
-    <section id="Contactus">
+        <!-- Alumni-->
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="Alumni">
+            <h2 class="text-capitalize"> Alumni</h2> </div>
+        <!-- Contact US -->
         <div class="container">
             <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ContactUs">
-                <h2>Contact Us</h2> </div>
+                <h2 class="text-capitalize">Contact Us</h2> </div>
             <div id="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.5374584752235!2d74.84373401413426!3d12.873124120516138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35a499fbec1b5%3A0xe5c391506b7a1a96!2sSt%20Aloysius%20College%20(Autonomous)!5e0!3m2!1sen!2sin!4v1628677739688!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
@@ -67,7 +101,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 </body>
 
 </html>
